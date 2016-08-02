@@ -35,7 +35,7 @@ export default function() {
     }
 
     aliases.set(base, { file: url });
-    done({ file: url });
+    return null;
 
   };
 
